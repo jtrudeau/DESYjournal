@@ -1,14 +1,38 @@
-_site
-.DS_Store
-.jekyll
+# Jekyll build outputs
+_site/
+.sass-cache/
+.jekyll-cache/
 .jekyll-metadata
-.bundle
-.sass-cache
-Gemfile
-Gemfile.lock
-node_modules
-package.json
+
+# Ruby/Bundler
+.bundle/
+vendor/
 *.gem
-*.gemspec
-.jekyll-cache
-/attached_assets
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Editor files
+*.swp
+*.swo
+*~
+
+# Private/sensitive content
+# Add any files or directories you want to keep private here
+# For example:
+# private_notes/
+# drafts/
+# personal/
+
+# Local development
+.env
+.env.local
+
+# Logs
+*.log
