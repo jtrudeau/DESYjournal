@@ -29,6 +29,7 @@ Thumbs.db
 # private_notes/
 # drafts/
 # personal/
+attached_assets/
 
 # Local development
 .env
